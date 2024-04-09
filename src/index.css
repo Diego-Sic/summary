@@ -27,3 +27,14 @@ body {
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   }
+
+  
+  .glass-gradient {
+    /* Use a linear gradient with multiple colors for the aurora effect */
+    background: linear-gradient(135deg,#ff6b6b, rgba(145, 175, 167, 0.494), #ff6b6b);
+    backdrop-filter: blur(10px); /* Apply a blur effect to elements behind the div */
+    border-radius: 20px; /* Rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Light white border */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); /* Shadow for depth */
+  }
+  

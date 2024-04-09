@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       id="Home"
       className="mx-auto max-w-[1200px] md:h-[80vh] p-8 overflow-hidden"
     >
-      <div className="glass px-5 mx-auto my-auto py-4 h-[100%] flex flex-col justify-center items-center">
+      <div className="glass-gradient px-5 mx-auto my-auto py-4 h-[100%] flex flex-col justify-center items-center">
         <h1 className="text-4xl sm:text-4xl lg:text-8xl font-extrabold flex flex-col items-center text-white">
           <div className="bg-gradient-to-r from-[#ff6b6b] to-[#ffa500] bg-clip-text text-transparent">
             <p className="mb-10">Welcome</p>
